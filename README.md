@@ -11,10 +11,7 @@ Support basic commands for read/write:
 
 To use the library follow these steps
 
-1 - Install Adafruit libraries for PN532 from https://github.com/adafruit/Adafruit-PN532
-
-2 - Copy the two files "Adafruit_PN532.c++" and "Adafruit_PN532.h" inside the Adafruit arduino libray folder
-    
-    (for example : Arduino\libraries\Adafruit_PN532)
-    
-3 - Use the sketch called "SRIX4k" to test the library
+1. Install Adafruit libraries for PN532 from https://github.com/adafruit/Adafruit-PN532
+2. Copy the two files "Adafruit_PN532.c++" and "Adafruit_PN532.h" inside the Adafruit arduino libray folder    
+   for example : Arduino\libraries\Adafruit_PN532  
+3. Use the sketch called "SRIX4k" to test the library
