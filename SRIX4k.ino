@@ -165,7 +165,7 @@ void loop(void) {
   success = nfc.srix4k_uid(block);  
   if (!success)
   {
-    Serial.println("Failed to read block 0x11");
+    Serial.println("Failed to read UID");
     while (1); // halt
   }
   Serial.print("UID : ");
