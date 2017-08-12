@@ -14,4 +14,7 @@ To use the library follow these steps
 1. Install Adafruit libraries for PN532 from https://github.com/adafruit/Adafruit-PN532
 2. Copy the two files "Adafruit_PN532.c++" and "Adafruit_PN532.h" inside the Adafruit arduino libray folder    
    for example : Arduino\libraries\Adafruit_PN532  
-3. Use the sketch called "SRIX4k" to test the library
+3. Use the sketch called "SRIX4k.ino" to test the library
+
+WARNING <br />
+I have tested the library only for I2C mode (the sketch is already set with I2C mode). I am not sure that this library works also for SPI.
