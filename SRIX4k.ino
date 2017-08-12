@@ -2,7 +2,6 @@
 /*! 
     @file     SRIX4k.pde
     @author   Ptr
-	  @license  BSD (see license.txt)
 
     This example will attempt to connect to an SRIX4K
     card or tag and retrieve some basic information about it.
