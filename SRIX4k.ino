@@ -126,7 +126,7 @@ void loop(void) {
   success = nfc.srix4k_readblock(0x7F, block);  
   if (!success)
   {
-    Serial.println("Failed to read block 0x11");
+    Serial.println("Failed to read block 0x7F");
     while (1); // halt
   }
   Serial.print("0x7F : ");
@@ -150,7 +150,7 @@ void loop(void) {
   success = nfc.srix4k_readblock(0x7F, block);  
   if (!success)
   {
-    Serial.println("Failed to read block 0x11");
+    Serial.println("Failed to read block 0x7F");
     while (1); // halt
   }
   Serial.print("0x7F : ");
